@@ -3,6 +3,7 @@ body {
     font-size: 18px;
 }
 
-header footer {
-    background-color: #B3F5C3;
+header, footer {
+    background-color: #94B59D;
 }
+

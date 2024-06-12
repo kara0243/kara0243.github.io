@@ -4,10 +4,24 @@ body {
 }
 
 header, footer {
-    background-color: #94B59D;
+    background-color: #60a472;
 }
 
 /* dot means class */
 .site-title {
     color: navy;
+}
+
+/* hashtag means id  */
+#my-image {
+    box-shadow:0px 0px 2px 1px black;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* selects the odd li in the list */
+li:nth-child(odd) {
+    background-color: #DBB2B8;
 }

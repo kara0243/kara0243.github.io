@@ -7,3 +7,7 @@ header, footer {
     background-color: #94B59D;
 }
 
+/* dot means class */
+.site-title {
+    color: navy;
+}

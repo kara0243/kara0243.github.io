@@ -38,9 +38,9 @@ ul {
 }
 
 .nav-link:hover {
-    color:aqua;
+    background-color:aqua;
 }
 
 .nav-link:focus {
-    color:blue;
+    background-color:blue;
 }

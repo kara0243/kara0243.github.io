@@ -18,10 +18,29 @@ header, footer {
 }
 
 ul {
-    list-style-type: circle;
+    list-style-type: square;
 }
 
-/* selects the odd li in the list */
-li:nth-child(odd) {
+/* selects the odd li in class h */
+.h:nth-child(odd) {
     background-color: #DBB2B8;
+}
+
+/* removing the bullet points */
+.navigation-bar {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    background-color: lightgrey;
+    border: 1px solid black; 
+}
+
+.nav-link:hover {
+    color:aqua;
+}
+
+.nav-link:focus {
+    color:blue;
 }

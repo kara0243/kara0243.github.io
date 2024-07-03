@@ -1,14 +1,15 @@
+/* setting the font and background color  */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
 }
-
+/* adding a wrapper to center the content  */
 .wrapper {
     margin: auto;
     width: 1024px;
     background-color: #d4e5e3;
 }
-
+/* resizing and positoning the main heading over the image  */
 h1 {
     position: absolute;
     top: 50%;
@@ -18,7 +19,7 @@ h1 {
     font-size: 52px;
     font-weight: 200;
 }
-
+/* using a class to fix the position of the image  */
 .container {
     position: relative;
     max-width: 1024px;
@@ -28,7 +29,7 @@ h1 {
 img {
     width: 100%;
 }
-
+/* inline disply for the navigation bar  */
 nav li {
     display: inline-block;
     width: 32%;
@@ -37,36 +38,46 @@ nav li {
     text-transform: uppercase;
     border-right: 2px solid black;
 }
+/* removing the right border for the last li  */
 nav li:nth-child(3) {
     border-right: none;
 }
-
+/* styling the links in navigation bar and removing the underline */
+nav li a:link {
+    text-decoration: none;
+    color: black;
+}
+/* change the color for links after visiting  */
+nav li a:visited {
+    color: blue;
+}
+/* position of the navigation bar  */
 nav ul {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 40px;
 }
-
+/* setting the  font size and position for heading2  */
 article section h2 {
     font-size: 34px;
     font-weight: 200;
     margin-left: 10px;
     margin-bottom: 0;
 }
-
+/* usuing float to position the image to the left  */
 .float {
     width: 990px;
     font-size: 17px;
     margin-left: 10px;
 }
-
+/* put the image in a text wrap  */
 .float img {
     width: 240px;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
+/* clearfix the image and text around it in both sides  */
 .clearfix::after {
     display: block;
     clear: both;
@@ -81,14 +92,14 @@ div section ul {
     margin-left: 10px;
     padding-left: 15px;
 }
-
+/* adding a border for the form  */
 .form {
     border: 1.5px solid black;
     padding:  20px 15px;
     margin: 10px;
     
 }
-
+/* adding style to the inputs and textarea by their id  */
 #fullname {
     width: 960px;
     height: 25px;
@@ -105,19 +116,20 @@ div section ul {
     width: 960px;
     height: 70px;
     margin: 5px 0 10px 0;
+    resize: none;
 }
 
 h3 {
     font-weight: 200;
 }
-
+/* changing the button style  */
 .btn {
     background-color: #d4e5e3;
     text-transform: uppercase;
     padding: 10px;
     margin-top: 15px;
 }
-
+/* positioning the footer  */
 div footer {
     position: relative;
     left: 850px;

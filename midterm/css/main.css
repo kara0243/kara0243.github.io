@@ -66,3 +66,60 @@ article section h2 {
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
+.clearfix::after {
+    display: block;
+    clear: both;
+}
+
+div section h2 {
+    margin-left: 10px;
+    font-weight: 200;
+}
+
+div section ul {
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.form {
+    border: 1.5px solid black;
+    padding:  20px 15px;
+    margin: 10px;
+    
+}
+
+#fullname {
+    width: 960px;
+    height: 25px;
+    margin: 5px 0 10px 0;
+}
+
+#email {
+    width: 960px;
+    height: 25px;
+    margin: 5px 0 10px 0;
+}
+
+#message {
+    width: 960px;
+    height: 70px;
+    margin: 5px 0 10px 0;
+}
+
+h3 {
+    font-weight: 200;
+}
+
+.btn {
+    background-color: #d4e5e3;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+div footer {
+    position: relative;
+    left: 850px;
+    padding: 25px;
+}

@@ -58,7 +58,7 @@ nav ul {
     margin-bottom: 40px;
 }
 /* setting the  font size and position for heading2  */
-article section h2 {
+article h2 {
     font-size: 34px;
     font-weight: 200;
     margin-left: 10px;
@@ -88,7 +88,7 @@ div section h2 {
     font-weight: 200;
 }
 
-div section ul {
+div ul {
     margin-left: 10px;
     padding-left: 15px;
 }

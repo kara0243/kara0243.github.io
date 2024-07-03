@@ -121,6 +121,7 @@ div section ul {
 
 h3 {
     font-weight: 200;
+    margin-top: 10px;
 }
 /* changing the button style  */
 .btn {
@@ -128,6 +129,7 @@ h3 {
     text-transform: uppercase;
     padding: 10px;
     margin-top: 15px;
+    border: 1.5px solid black;
 }
 /* positioning the footer  */
 div footer {

@@ -9,7 +9,7 @@ body {
     width: 1024px;
     background-color: #d4e5e3;
 }
-/* resizing and positoning the main heading over the image  */
+/* resizing and positioning the main heading over the image  */
 h1 {
     position: absolute;
     top: 50%;
@@ -29,7 +29,7 @@ h1 {
 img {
     width: 100%;
 }
-/* inline disply for the navigation bar  */
+/* inline display for the navigation bar  */
 nav li {
     display: inline-block;
     width: 32%;
@@ -42,7 +42,7 @@ nav li {
 nav li:nth-child(3) {
     border-right: none;
 }
-/* styling the links in navigation bar and removing the underline */
+/* styling the links in the navigation bar and removing the underline */
 nav li a:link {
     text-decoration: none;
     color: black;
@@ -64,7 +64,7 @@ article h2 {
     margin-left: 10px;
     margin-bottom: 0;
 }
-/* usuing float to position the image to the left  */
+/* using float to position the image to the left  */
 .float {
     width: 990px;
     font-size: 17px;
@@ -93,17 +93,20 @@ div ul {
     margin: 10px;
     padding-left: 15px;
 }
-/* adding a border for the form  */
 
+.facts > li {
+    font-size: 17px;
+}
+
+/* styling the h2 for the contact form  */
 #contact > h2 {
     font-size: 26px;
 }
-
+/* adding a border for the form  */
 .form {
     border: 1.5px solid black;
     padding:  20px 15px;
-    margin: 10px;
-    
+    margin: 10px;    
 }
 /* adding style to the inputs and textarea by their id  */
 #fullname {

@@ -14,44 +14,172 @@
     <nav>
         <!-- add a class of wrapper to position the logo,list items and form  -->
         <div class="wrapper">
-            <img src="images/logo.png" alt=" Three star logo">
+            <div class="logo">
+                <img src="images/logo.png" alt=" Three star logo">
+            </div>
             <ul>
                 <!-- add a class of home to chnage the background color and size   -->
-                <li class="home"><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Team</a></li>
-                <li><a href="">Contact</a></li>
+                <li class="home"><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <!-- adding form to add search box  -->
-            <form action="index.html" method="get">
-                <label for="search">Search</label>
-                <input id="search">
-                <!-- add search icon for the form  -->
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <form action="index.html" method="post">
+                <input type="text" placeholder="Search">
+                <!-- adding the search button with icon  -->
+                <button class=""><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
         </div>
     </nav>
     <!-- add a section with class of welcome to add backgrond image  -->
-    <section class="welcome">
+    <section class="welcome" id="home">
         <!-- add a header with class of wrapper to center the content  -->
         <header class="wrapper">
             <h1>Welcome to Three star Media</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perferendis, reprehenderit odio pariatur porro eligendi quo eveniet suscipit cupiditate quia culpa alias similique commodi atque perspiciatis, amet distinctio consequuntur quidem?</p>
-            <form>
-                <!-- adding the button tag with class of btn to chnage the color and size and adding icon -->
-                <button class="btn">Connect with us<i class="fa-solid fa-caret-right"></i></button>
-            </form>
+            <!-- adding the anchor to change style in css  -->
+            <a href="#contact" class="btn btn-yellow"> Connect with us<i class="fa-solid fa-caret-right"></i></a>
         </header>
     </section>
     <!-- add another section for about us to chane the background color  -->
-    <section>
-        <!-- add class of wrapper to div to position content  -->
+    <section class="about" id="about-us">
+        <!-- add class of wrapper to div to control the position of content  -->
         <div class="wrapper">
             <img src="images/about-us.jpg" alt="Three Start Media Studio">
             <h2>About Us</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus minus illum ipsa fugiat distinctio hic totam dicta modi eveniet aspernatur reprehenderit cupiditate sunt, incidunt, nisi et optio eos provident adipisci.</p>
         </div>
     </section>
+    <!-- add a section for service to use grid in desktop version  -->
+    <section class="wrapper" id="services">
+        <h2>Our services</h2>
+        <!-- adding a class to each part to use grid in css  -->
+        <div class="digital">
+            <img src="images/digital.jpg" alt="A person working with  a laptop and phone">
+            <h3>Digital Transformation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fugiat. Dolorem magni repudiandae ipsum vitae possimus debitis, quaerat error suscipit delectus eligendi soluta maiores rerum natus commodi ad facere praesentium!</p>
+            <!-- add and anchor tag for the button to change the style in css  -->
+            <a href="#" class="btn btn-black">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+        <div class="marketing">
+            <img src="images/marketing.jpg" alt="A laptop on a desk">
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nam esse voluptates aut possimus, impedit reiciendis doloribus repudiandae incidunt ab, eaque enim velit vel, voluptatibus facilis dignissimos in commodi unde.</p>
+            <a href="#" class="btn btn-black">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+        <div class="video">
+            <img src="images/video.jpg" alt="A mobile screen with Youtube Logo">
+            <h3>Video Production</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos velit a itaque labore impedit minus soluta voluptatibus, architecto magni obcaecati atque! Cumque nobis tenetur similique et facere accusantium commodi quo!</p>
+            <a href="#" class="btn btn-black">Video Plans <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+        <div class="web">
+            <img src="images/web.jpg" alt="A phone and a pen on a notebook">
+            <h3>Web Developement</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugit dolorem sunt. Itaque numquam quibusdam ipsa ipsam nostrum, saepe, cum ad quis minima tempora, alias aliquam debitis maxime voluptate amet?/</p>
+            <a href="#" class="btn btn-black">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+        <div class="print">
+            <img src="images/print.jpg" alt="print machines in the street">
+            <h3>Print</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi tempore minus, voluptatum cupiditate expedita vero deleniti perferendis illo est ducimus officia? Exercitationem praesentium unde aliquam dolore consequatur aliquid natus.</p>
+
+            <a href="#" class="btn btn-black">Print Plans <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+    </section>
+    <!-- add a section for vision to add the background image in css -->
+    <section class="vision">
+        <!-- add aclass of wrapper to center and wrap the content  -->
+        <div class="wrapper">
+            <h3>Our Vision</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In dolore asperiores natus consectetur. Vitae cum mollitia eligendi expedita veniam, dolores nihil, molestias quidem tempore ducimus sit nesciunt? Aperiam, cumque numquam?</p>
+
+            <a href="#" class="btn btn-blue">Learn More <i class="fa-solid fa-caret-right"></i></a>
+        </div>
+    </section>
+    <!-- add a class of wrapper to center all in the team section  -->
+    <section class="wrapper" id="team">
+        <h3>Our Team</h3>
+        <!-- add 4 divs with class for images and content to use flex for desktop version -->
+        <div class="john-image">
+            <img src="images/john.jpg" alt="A photo of John">
+        </div>
+        <div class="john-bio">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis voluptatum aperiam commodi repudiandae maiores ut deserunt fugiat iure? Et minima amet distinctio placeat quas sint blanditiis dolor laudantium. Dolores, laudantium.</p>
+        </div>
+        <div class="bob-image">
+            <img src="images/bob.jpg" alt="A photo of Bob">
+        </div>
+        <div class="bob-bio">
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab saepe dolor, tempore consequuntur iste, nulla quibusdam quos eaque necessitatibus distinctio deserunt molestias veniam, doloribus voluptates quaerat? Dolor exercitationem voluptates similique.</p>
+        </div>
+    </section>
+    <!-- add a section for the contact with a class of wrapper to wrap -->
+    <section class="wrapper" id="contact">
+        <h2>Contact Us</h2>
+        <!-- adding a div for each part to use grid in the css  -->
+        <div class="message">
+            <h3>Send us a message</h3>
+            <!-- adding a form for the contact info and put each in a div to tagert in css  -->
+            <form action="index.html" method="get">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input id="fullname">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email">
+                </div>
+                
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                </div> 
+
+                <input type="button" value="send" class="btn btn-send">
+            </form>
+        </div>
+        <!-- adding a table to add style in css  -->
+        <div class="hours">
+            <h3>Hours of Operation</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
+        <!-- adding the map and remove the size to style it in css  -->
+        <div class="location">
+            <h3>Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44863.11128251135!2d-75.78994462089844!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1722291906812!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- aading a footer and add a class of wrapper to each p, to be able to have th black part and wrap the text  -->
+    <footer>
+        <p class="wrapper"> &#169 Copyright Three Star Media, 2020</p>
+        <p class="wrapper">All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+    </footer>
+
+
 </body>
 </html>

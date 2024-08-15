@@ -1,0 +1,682 @@
+/* adding the reset  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* adding css for the mobile version */
+
+/* adding the border box to control width and height  */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* chnaging the font family of body by adding the links in the head of the HTML  */
+body {
+	font-family: "Open Sans", sans-serif;
+}
+/* add a wrapper with max-width of 1200px to wrap all the contents with a class of wrapper  */
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+} 
+
+/* navigation  */
+/* set a black background for the navigation bar  */
+nav {
+	background-color: #222;
+}
+/* adding a flex to the wrapper in the navigation to set the element verticaly  */
+nav .wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	padding: 0 1rem;
+}
+/* style the list and center the items */
+nav ul {
+	list-style-type: none;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* set the size and position of the list items  */
+nav li {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 25px;
+}
+/* add a background color and width for "home" */
+nav .home {
+	background-color: #c78c06;
+	width: 100%;
+	/* height: 70px;  */
+}
+/* add a background color and width for the logo to match the "home" part  */
+nav .logo {
+	background-color: #c78c06;
+	width: 100%;
+	margin-top: 1rem;
+}
+/* change the color of the links  */
+.home a {
+	color: #222;
+}
+
+nav li a {
+	color: #c78c06;
+	text-decoration: none;
+}
+/* adding flex to the search bar to center and control the position  */
+nav form {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 15px auto;
+}
+nav form .form{
+	width: 100%;
+	padding: 10px;
+	font-size: 1.5rem;
+}
+/* adding a border and background color for the icon  */
+nav form button {
+	width: 50px;
+	height: 50px;
+	background-color: #222;
+	border: 1px solid #c78c06;
+}
+/* changing the icon style  */
+.fa-magnifying-glass {
+	color: #c78c06;
+	font-size: 1.8rem;
+}
+
+/* welcome  */
+/* adding the background image and change the color of fonts over it  */
+.welcome {
+	background-image: url('../images/main-banner.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	padding: 1rem 0;
+}
+/* adding a transparent background on the image in the wrapper  */
+.welcome .wrapper {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 4rem 1rem;
+	margin: 4rem auto;
+	max-width: 1200px;
+}
+/* styling the headings and paragraph  */
+.welcome h1 {
+	font-size:5rem;
+	line-height: 9rem;
+	font-weight:bold;
+}
+
+.welcome p {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	margin-bottom: 3rem; 
+	margin-top: 1rem;
+}
+/* adding a style for the yellow button and the icon in it */
+.welcome .btn-yellow {
+	background-color: #c78c06;
+	padding: 40px 40px;
+	font-size: 1.7rem;
+}
+
+.welcome a {
+	text-decoration: none;
+	color: #222;
+}
+
+.fa-caret-right {
+	color: #222;
+	font-size: 3rem;
+	padding-left: 10px;
+}
+/* adding a background color for the section  */
+.about .wrapper {
+	background-color:#ffe6ac;
+	padding: 20px; 
+}
+/* set a 100% width for the image in the wrapper  */
+.about img {
+	width: 100%;
+}
+/* styling the fonts  */
+.about h2 {
+	font-size: 4rem;
+	font-weight: bold;
+	padding: 40px 0;
+}
+
+.about p {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	padding-bottom: 20px;
+}
+
+/* service  */
+/* adding the marging for all the 5 divs  */
+#services {
+	margin: 0 1rem;
+}
+#services h2 {
+	font-size: 4rem;
+	font-weight: bold;
+	padding: 40px 0;
+}
+/* setting the image size for all the images in the services section  */
+#services img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+/* adding a background color for each class to add the text and button  */
+.digital, .marketing, .video, .web, .print {
+	background-color: #ffe6ac;
+	margin-bottom: 20px;
+	padding-bottom: 4rem;
+}
+/* styling the fonts and buttons */
+#services h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding: 30px 15px;
+}
+
+#services p {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	padding: 10px 15px;
+	margin-bottom: 40px;
+}
+
+#services .btn-black {
+	background-color: #222;
+	padding: 40px 40px;
+	font-size: 1.8rem;
+	margin-left: 15px;
+}
+/* removing the underline from the links  */
+#services a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#services .fa-caret-right {
+	color:#fff;
+	font-size: 3rem;
+	padding-left: 10px;
+}
+/* vision  */
+.vision .wrapper {
+	padding: 3rem 1rem;
+	margin: 0 auto;
+	max-width: 1200px; 
+}
+/* adding the background image for the vision to have it outside of the wrapper  */
+.vision {
+	background-image: url('../images/vision.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 1rem;
+}
+/* styling the fonts  */
+.vision h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 15px;
+	
+}
+
+.vision p {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	padding: 15px 0;
+	margin-bottom: 40px;
+}
+/* styling the button using gradient and styling the icon */
+.vision .btn-blue {
+	background-image: linear-gradient(to right, rgb(14, 21, 40) , rgb(31, 40, 91));
+	border: 1px solid #c78c06;
+	padding: 40px 40px;
+	font-size: 1.8rem;
+}
+
+.vision a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.vision .fa-caret-right {
+	color:#fff;
+	font-size: 3rem;
+	padding-left: 10px;
+}
+
+/* team  */
+/* adding the margin inside the wrapper  */
+#team {
+	margin: 0 1rem;
+}
+
+#team h2 {
+	font-size: 4rem;
+	font-weight: bold;
+	padding: 30px 0;
+}
+/* setting the width for the images  */
+.john-image img {
+	width: 100%;
+}
+
+.bob-image img {
+	width:100%;
+}
+/* adding a background color for bio  */
+.john-bio, .bob-bio {
+	background-color: #ffe6ac;
+	margin-bottom: 20px;
+	padding: 30px 15px;
+}
+/* styling the fonts  */
+#team h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+#team h4 {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #c78c06;
+	margin-bottom: 20px;
+}
+
+#team p {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+/* contact  */
+/* adding the margin  */
+#contact {
+	margin: 1rem;
+}
+/* styling the headings  */
+#contact h2 {
+	font-size: 4rem;
+	font-weight: bold;
+	padding: 30px 0;
+}
+
+#contact h3 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+/* set a margin between the divs  */
+.message, .hours, .location {
+	margin-bottom: 20px;
+}
+/* set a width for the form  */
+.message form {
+	width: 100%;
+}
+
+.message form div {
+	margin-bottom: 10px;
+}
+/* styling the form lables, input and text area   */
+.message form label {
+	font-size: 1.2rem;
+	margin-bottom: 5px;
+	display: block;
+}
+.message form div input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #222;
+	border-radius: 4px;
+}
+
+.message form textarea {
+	width: 100%;
+	padding: 60px;
+	border: 1px solid #222;
+	border-radius: 4px;
+}
+/* styling the send button  */
+.message .btn-send {
+	font-size: 2rem;
+	background-color: #222;
+	color: #c78c06;
+	border: none;
+	padding: 5px 10px;
+}
+
+.hours {
+	margin-bottom: 20px;
+}
+/* set a width for the table to fit in the wrapper  */
+.hours table {
+	width: 100%;
+}
+/* styling the table and adding borders  */
+.hours table th {
+	background-color: #ffe6ac;
+	border: 1px solid #222;
+	font-size: 1.2rem;
+	padding: 20px;
+	text-align: center;
+}
+
+.hours table td {
+	font-size: 1.2rem;
+	border: 1px solid #222;
+	padding: 20px;
+	text-align: left;
+}
+
+.location {
+	margin-bottom: 20px;
+}
+/* styling the map inside the frame  */
+.location iframe {
+	width: 100%;
+	height: 600px;
+	border: none;
+	border-radius: 4px;
+}
+/* adding a background color for the footer outside the wrapper  */
+footer {
+	background-color: #222;
+	padding: 30px 15px 10px 15px;
+	
+}
+/* styling the fonts in the wrapper  */
+footer p {
+	color: #c78c06;
+	font-size: 1.2rem;
+	line-height: 3rem;
+}
+
+footer a {
+	color: #c78c06;
+}
+
+/* adding the desktop version  */
+
+@media screen and (min-width: 760px) {
+	nav .wrapper {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1.5rem 0;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav li {
+		font-size: 1.2rem;
+		text-align: center;
+		margin: 0 10px;
+		padding: 1rem 1.8rem;
+		white-space: nowrap;
+	}
+
+	nav .logo {
+		width: auto;
+		margin-top: 0.5rem;
+	}
+
+	nav .home {
+		background-color: #c78c06;
+		text-align: center;
+		padding: 1.5rem 2.5rem;
+		margin-left: 4rem;
+	}
+
+	nav form .form{
+		font-size: 1.2rem;
+	}
+
+	nav form button {
+		width: 45px;
+		height: 45px;
+	}
+
+	.welcome p {
+		font-size: 1rem;
+	}
+
+	.about {
+		background-color: #ffe6ac;
+	}
+
+	.about img {
+		float: left;
+		margin-right: 2rem;
+		width: 50%;
+		height: auto;
+	}
+
+	.about h2 {
+		font-size: 3rem;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.about p {
+		font-size: 1rem;
+		padding-bottom: 0;
+	}
+
+	.clearfix::after {
+		display: block;
+		clear: both;
+	} 
+
+	#services .wrapper {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-areas: 
+		"s1 s1 s1 s1 s1 s1"
+		"s2 s2 s2 s3 s3 s3"
+		"s4 s4 s5 s5 s6 s6";
+		gap: 0 1rem;
+	}
+
+	#services .wrapper > h2 { grid-area: s1; }
+	.digital { grid-area: s2; }
+	.marketing { grid-area: s3; }
+	.video { grid-area: s4; }
+	.web { grid-area: s5; }
+	.print { grid-area: s6; }
+
+	#services h2 {
+		font-size: 3rem;
+		padding-bottom: 20px;
+	}
+
+	#services h3 {
+		font-size: 2.1rem;
+	}
+
+	#services p {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+	
+	#services .btn-black {
+		background-color: #222;
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		margin: auto;
+		font-size: 1.5rem; 
+	}
+	
+	#services .fa-caret-right {
+		font-size: 2rem;
+	}
+
+	.digital, .marketing, .video, .web, .print {
+		background-color: #ffe6ac;
+		margin-bottom: 20px;
+		padding-bottom: 1rem;
+	}
+
+	.vision p {
+		font-size: 1rem;
+	}
+	
+
+	#team .our-team {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.john-image {
+		flex-basis: 50%;
+		order: 1;
+	}
+
+	.john-bio {
+		flex-basis: 50%;
+		order: 2;
+	}
+
+	.bob-image {
+		flex-basis: 50%;
+		order: 4;
+	}
+
+	.bob-bio {
+		flex-basis: 50%;
+		order: 3;
+	}
+
+	.john-bio, .bob-bio {
+		margin-bottom: 0;
+	}
+
+	#team h2 {
+		font-size: 3rem;
+	}
+
+	#team h3 {
+		font-size: 2.1rem;
+	}
+
+	#team h4 {
+		font-size: 1.3rem;
+	}
+
+	#team p {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	#contact .wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: 
+		"c1 c1"
+		"c2 c4"
+		"c3 c3";
+		gap: 1rem;
+	}
+
+
+	#contact .wrapper > h2 { grid-area: c1; }
+	.message { grid-area: c2; }
+	.hours { grid-area: c3; }
+	.location { grid-area: c4; }
+
+	#contact h2 {
+		font-size: 3rem;
+	}
+
+	#contact h3 {
+		font-size: 2.1rem;
+	}
+
+	.message .btn-send {
+		font-size: 1.5rem;
+	}
+
+	.message form label {
+		font-size: 1rem;
+	}
+
+	.hours table th {
+		font-size: 1rem;
+	}
+	
+	.hours table td {
+		font-size: 1rem;
+	}
+
+	footer p {
+		font-size: 1rem;
+	}
+
+}
+
+
+

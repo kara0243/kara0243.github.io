@@ -585,8 +585,9 @@ footer a {
 	}
 	
 	#team {
+		display: flex;
+		flex-direction: column;
 		margin: 0 auto;
-		max-width: 1200px;
 	}
 	#team .our-team {
 		display: flex;

@@ -151,7 +151,7 @@ nav form button {
 }
 /* styling the headings and paragraph  */
 .welcome h1 {
-	font-size:4.5rem;
+	font-size: 4rem;
 	line-height: 7.5rem;
 	font-weight:bold;
 }
@@ -165,7 +165,7 @@ nav form button {
 /* adding a style for the yellow button and the icon in it */
 .welcome .btn-yellow {
 	background-color: #c78c06;
-	padding: 40px 40px;
+	padding: 35px 35px;
 	font-size: 1.5rem;
 }
 

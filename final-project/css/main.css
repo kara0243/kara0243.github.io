@@ -83,7 +83,7 @@ nav ul {
 }
 /* set the size and position of the list items  */
 nav li {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	text-align: center;
 	padding: 25px;
 }
@@ -118,19 +118,19 @@ nav form {
 nav form .form{
 	width: 100%;
 	padding: 10px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 /* adding a border and background color for the icon  */
 nav form button {
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	background-color: #222;
 	border: 1px solid #c78c06;
 }
 /* changing the icon style  */
 .fa-magnifying-glass {
 	color: #c78c06;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 }
 
 /* welcome  */
@@ -151,14 +151,14 @@ nav form button {
 }
 /* styling the headings and paragraph  */
 .welcome h1 {
-	font-size:5rem;
-	line-height: 9rem;
+	font-size:4.5rem;
+	line-height: 7.5rem;
 	font-weight:bold;
 }
 
 .welcome p {
-	font-size: 1.2rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
 	margin-bottom: 3rem; 
 	margin-top: 1rem;
 }
@@ -166,7 +166,7 @@ nav form button {
 .welcome .btn-yellow {
 	background-color: #c78c06;
 	padding: 40px 40px;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 .welcome a {
@@ -176,9 +176,10 @@ nav form button {
 
 .fa-caret-right {
 	color: #222;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	padding-left: 10px;
 }
+/* about  */
 /* adding a background color for the section  */
 .about .wrapper {
 	background-color:#ffe6ac;
@@ -190,14 +191,14 @@ nav form button {
 }
 /* styling the fonts  */
 .about h2 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 	padding: 40px 0;
 }
 
 .about p {
-	font-size: 1.2rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
 	padding-bottom: 20px;
 }
 
@@ -207,7 +208,7 @@ nav form button {
 	margin: 0 1rem;
 }
 #services h2 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 	padding: 40px 0;
 }
@@ -224,22 +225,22 @@ nav form button {
 }
 /* styling the fonts and buttons */
 #services h3 {
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	padding: 30px 15px;
 }
 
 #services p {
-	font-size: 1.2rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
 	padding: 10px 15px;
 	margin-bottom: 40px;
 }
 
 #services .btn-black {
 	background-color: #222;
-	padding: 40px 40px;
-	font-size: 1.8rem;
+	padding: 35px 35px;
+	font-size: 1.5rem;
 	margin-left: 15px;
 }
 /* removing the underline from the links  */
@@ -250,7 +251,7 @@ nav form button {
 
 #services .fa-caret-right {
 	color:#fff;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	padding-left: 10px;
 }
 /* vision  */
@@ -270,15 +271,15 @@ nav form button {
 }
 /* styling the fonts  */
 .vision h3 {
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	padding-bottom: 15px;
 	
 }
 
 .vision p {
-	font-size: 1.2rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
 	padding: 15px 0;
 	margin-bottom: 40px;
 }
@@ -286,8 +287,8 @@ nav form button {
 .vision .btn-blue {
 	background-image: linear-gradient(to right, rgb(14, 21, 40) , rgb(31, 40, 91));
 	border: 1px solid #c78c06;
-	padding: 40px 40px;
-	font-size: 1.8rem;
+	padding: 35px 35px;
+	font-size: 1.5rem;
 }
 
 .vision a {
@@ -297,7 +298,7 @@ nav form button {
 
 .vision .fa-caret-right {
 	color:#fff;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	padding-left: 10px;
 }
 
@@ -308,7 +309,7 @@ nav form button {
 }
 
 #team h2 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 	padding: 30px 0;
 }
@@ -328,7 +329,7 @@ nav form button {
 }
 /* styling the fonts  */
 #team h3 {
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	padding-bottom: 15px;
 }
@@ -342,8 +343,8 @@ nav form button {
 }
 
 #team p {
-	font-size: 1.2rem;
-	line-height: 1.8rem;
+	font-size: 1rem;
+	line-height: 1.6rem;
 }
 
 /* contact  */
@@ -353,13 +354,13 @@ nav form button {
 }
 /* styling the headings  */
 #contact h2 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 	padding: 30px 0;
 }
 
 #contact h3 {
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: bold;
 	padding-bottom: 15px;
 }
@@ -377,7 +378,7 @@ nav form button {
 }
 /* styling the form lables, input and text area   */
 .message form label {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	margin-bottom: 5px;
 	display: block;
 }
@@ -396,7 +397,7 @@ nav form button {
 }
 /* styling the send button  */
 .message .btn-send {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	background-color: #222;
 	color: #c78c06;
 	border: none;
@@ -414,13 +415,13 @@ nav form button {
 .hours table th {
 	background-color: #ffe6ac;
 	border: 1px solid #222;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	padding: 20px;
 	text-align: center;
 }
 
 .hours table td {
-	font-size: 1.2rem;
+	font-size: 1rem;
 	border: 1px solid #222;
 	padding: 20px;
 	text-align: left;
@@ -445,7 +446,7 @@ footer {
 /* styling the fonts in the wrapper  */
 footer p {
 	color: #c78c06;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 3rem;
 }
 
@@ -454,8 +455,9 @@ footer a {
 }
 
 /* adding the desktop version  */
-
+/* adding the media query with min width of 760 and above  */
 @media screen and (min-width: 760px) {
+	/* add a new flex and row direction to the navigation to have the horizental bar */
 	nav .wrapper {
 		display: flex;
 		flex-direction: row;
@@ -463,73 +465,75 @@ footer a {
 		align-items: center;
 		padding: 1.5rem 0;
 	}
-
+	/* add the flex and row direction to the list to position the items  */
 	nav ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 	}
-
+	/* styling the font and setting all the text in one line by removing the white space  */
 	nav li {
-		font-size: 1.2rem;
+		font-size: 1rem; 
 		text-align: center;
 		margin: 0 10px;
-		padding: 1rem 1.8rem;
+		padding: 1.2rem 2.2rem;
 		white-space: nowrap;
 	}
-
+	/* position the logo  */
 	nav .logo {
 		width: auto;
 		margin-top: 0.5rem;
 	}
-
+	/* change the size of background color for the home button  */
 	nav .home {
 		background-color: #c78c06;
 		text-align: center;
-		padding: 1.5rem 2.5rem;
+		padding: 1.2rem 2.2rem;
 		margin-left: 4rem;
 	}
-
+	/* change the sytle the search bar and icon  */
 	nav form .form{
-		font-size: 1.2rem;
-	}
-
-	nav form button {
-		width: 45px;
-		height: 45px;
-	}
-
-	.welcome p {
 		font-size: 1rem;
 	}
 
+	nav form button {
+		width: 40px;
+		height: 40px;
+	}
+	/* welcome  */
+	/* in this section I just change the size of the h1  */
+	.welcome h1 {
+		font-size: 5rem; 
+	}  
+	/* about  */
+	/* setting the background color to have the full width behind the image  */
 	.about {
 		background-color: #ffe6ac;
 	}
-
+	/* float the image to the left to wrap the text  */
 	.about img {
 		float: left;
 		margin-right: 2rem;
 		width: 50%;
 		height: auto;
 	}
-
+	/* chnaging the font size  */
 	.about h2 {
 		font-size: 3rem;
 		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-bottom: 1rem;
 	}
 
 	.about p {
-		font-size: 1rem;
-		padding-bottom: 0;
+		padding-bottom: 10px;
 	}
-
+	/* clearfix the float to prevent collapsing the wrapper   */
 	.clearfix::after {
 		display: block;
 		clear: both;
 	} 
-
+	/* service  */
+	/* adding grid to this section and using grid area to position each div  */
 	#services .wrapper {
 		display: grid;
 		grid-template-columns: repeat(6, 1fr);
@@ -539,7 +543,7 @@ footer a {
 		"s4 s4 s5 s5 s6 s6";
 		gap: 0 1rem;
 	}
-
+	/* setting the grid area for each div  */
 	#services .wrapper > h2 { grid-area: s1; }
 	.digital { grid-area: s2; }
 	.marketing { grid-area: s3; }
@@ -547,20 +551,17 @@ footer a {
 	.web { grid-area: s5; }
 	.print { grid-area: s6; }
 
+	/* chnging  the fonts size  */
 	#services h2 {
 		font-size: 3rem;
 		padding-bottom: 20px;
 	}
 
 	#services h3 {
-		font-size: 2.1rem;
+		font-size: 2rem;
 	}
 
-	#services p {
-		font-size: 1rem;
-		line-height: 1.5rem;
-	}
-	
+	/* chnging the style and position of buttons  */
 	#services .btn-black {
 		background-color: #222;
 		display: flex;
@@ -573,22 +574,21 @@ footer a {
 	#services .fa-caret-right {
 		font-size: 2rem;
 	}
-
+	/* change the margin and padding to remove extra space  */
 	.digital, .marketing, .video, .web, .print {
 		background-color: #ffe6ac;
 		margin-bottom: 20px;
 		padding-bottom: 1rem;
 	}
 
-	.vision p {
-		font-size: 1rem;
-	}
-	
+	/* team  */
+	/* add a flex in column to position the whole section in center  */
 	#team {
 		display: flex;
 		flex-direction: column;
 		margin: 0 auto;
 	}
+	/* using flex wrap to be able to cahnge the oerder of divs  */
 	#team .our-team {
 		display: flex;
 		flex-wrap: wrap;
@@ -604,7 +604,7 @@ footer a {
 		flex-basis: 50%;
 		order: 2;
 	}
-
+	/* chnaging the order of bob-image and bob-bio  */
 	.bob-image {
 		flex-basis: 50%;
 		order: 4;
@@ -614,28 +614,25 @@ footer a {
 		flex-basis: 50%;
 		order: 3;
 	}
-
+	/* remove the margin to have same height for images and content  */
 	.john-bio, .bob-bio {
 		margin-bottom: 0;
 	}
-
+	/* chnaging the size of fonts  */
 	#team h2 {
 		font-size: 3rem;
 	}
 
 	#team h3 {
-		font-size: 2.1rem;
+		font-size: 2rem;
 	}
 
 	#team h4 {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 
-	#team p {
-		font-size: 1rem;
-		line-height: 1.5rem;
-	}
-
+	/* contact  */
+	/* using grid area to style this section with cahnging the order  */
 	#contact .wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -645,41 +642,24 @@ footer a {
 		"c3 c3";
 		gap: 1rem;
 	}
-
-
+	/* naming the grid area for each div to style them */
 	#contact .wrapper > h2 { grid-area: c1; }
 	.message { grid-area: c2; }
 	.hours { grid-area: c3; }
 	.location { grid-area: c4; }
 
+	/* change the style of fonts, form and table  */
 	#contact h2 {
 		font-size: 3rem;
 	}
 
 	#contact h3 {
-		font-size: 2.1rem;
+		font-size: 2rem;
 	}
 
 	.message .btn-send {
 		font-size: 1.5rem;
 	}
-
-	.message form label {
-		font-size: 1rem;
-	}
-
-	.hours table th {
-		font-size: 1rem;
-	}
-	
-	.hours table td {
-		font-size: 1rem;
-	}
-
-	footer p {
-		font-size: 1rem;
-	}
-
 }
 
 

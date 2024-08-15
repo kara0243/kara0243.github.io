@@ -584,7 +584,10 @@ footer a {
 		font-size: 1rem;
 	}
 	
-
+	#team {
+		margin: 0 auto;
+		max-width: 1200px;
+	}
 	#team .our-team {
 		display: flex;
 		flex-wrap: wrap;
